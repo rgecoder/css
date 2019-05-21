@@ -1,0 +1,26 @@
+p{
+  background-color:grey;
+  display:inline-block;
+  vertical-align:top;
+}
+
+a{
+  margin: 5px;
+  background-color:#eee;
+  color: black;
+  padding: 2px;
+}
+
+/* ul li{
+  background-color:blue;
+  display:inline;
+} */
+
+#nav-menu{
+  list-style-type: none;
+}
+
+#nav-menu li{
+  display:inline;
+
+}
