@@ -1,0 +1,68 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+.container h1 {
+  width:100%;
+  background-color:darkgrey;
+  padding: 10px;
+  border:solid white 10px;
+}
+
+.container h3{
+  width:100%;
+  background-color:darkgrey;
+  padding: 10px;
+  border:solid white 10px;
+}
+
+.row{
+  /* sets any styling you would like for each row,
+  regardless of screen size */
+  padding: 10px;
+  
+}
+
+
+@media only screen and (max-width:480px){
+  .row .sm-phone{
+    width:100%;
+  }
+  .row .md-tablet{
+    display:none;
+  }
+  .row .lg-desktop{
+    display:none;
+  }
+}
+
+@media only screen and (min-width:481px){
+  .row .sm-phone{
+    display:none;
+  }
+  .row .md-tablet{
+    width:100%;
+    background-color:yellow;
+  }
+  .row .lg-desktop{
+    display:none;
+  }
+}
+
+
+@media only screen and (min-width:1024px){
+  .row .sm-phone{
+    display:none;
+  }
+  .row .md-tablet{
+    display:none;
+  }
+  .row .lg-desktop{
+    display:block;
+    width:100%;
+    background-color:yellow;
+  }
+}
+
