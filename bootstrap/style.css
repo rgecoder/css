@@ -1,0 +1,22 @@
+.container-1{
+  background-color:purple;
+  min-height:100px;
+}
+
+@media (min-width:576px){
+  .container-1{
+    background-color:green;
+  }
+}
+
+@media (min-width:768px){
+  .container-1{
+    background-color: blue;
+  }
+}
+
+@media (min-width:992px){
+  .container-1{
+    background-color:orange;
+  }
+}

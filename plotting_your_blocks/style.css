@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing:border-box;
 }
 
 #wrapper {
@@ -10,9 +11,10 @@
     overflow: auto;
 }
 
+
 #header {
     min-height: 150px;
-    width: 870px;
+    width: 100%;
     background-color: green;
     margin: 10px;
     padding: 10px;
@@ -47,4 +49,24 @@
     width: 660px;
     background-color: purple;
     margin: 10px;
+}
+
+
+@media  screen and (max-width:480px){
+    #header {
+        min-height: 150px;
+        width: 100%;
+        background-color: blue;
+        margin: 10px;
+        padding: 10px;
+        display:block;
+    }
+
+    #navigation{
+        display:none;
+    }
+
+
+    
+
 }
